@@ -39,17 +39,7 @@ env = TFPyEnvironment(env)
 
 q_net = TradingNet(
     env.action_spec(),
-    vocab_size,
-    64,
-    64,
-    (128, 32),
-    (64, 32),
-    (64, 32),
-    (64, 32),
-    (64, 32),
-    (64, 32),
-    (64, 32),
-    (64, 32)
+    vocab_size
 )
 q_net.create_variables(env.observation_spec())
 
