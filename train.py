@@ -23,8 +23,8 @@ eval_interval = 10
 name = 'model'
 
 
-API_KEY = 'PK2Y8W231ADOYUKWO8SX'
-API_SECRET = 'W4stIx5LHCc0o6AyjtbPGlPuLCZyk5XpxUk3OVN4'
+API_KEY = 'API_KEY'
+API_SECRET = 'API_SECRET'
 
 env = TradingEnv(
     API_KEY,
