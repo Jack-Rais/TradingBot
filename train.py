@@ -9,9 +9,8 @@ from tf_agents.utils import common
 from tf_agents.policies.tf_policy import TFPolicy
 
 from datetime import datetime
-from GymEnvironment import TradingEnv
-from Net import TradingNet
-from Metric import TradingMetric
+
+from pieces import TradingEnv, TradingNet, TradingMetric
 
 
 initial_collect_steps = 50
