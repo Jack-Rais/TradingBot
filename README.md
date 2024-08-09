@@ -1,3 +1,3 @@
 # Trading Agent
 
-A tf_agents project to train an agent in a market environment.
+A Reinforcement Learning project of a Trading bot with tensorflow agents.
